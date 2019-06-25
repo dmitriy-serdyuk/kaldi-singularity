@@ -15,7 +15,7 @@ From: pytorch/pytorch:latest
 #        cd /tmp
 #        git clone https://github.com/kaldi-asr/kaldi.git
 #        cd kaldi/tools
-#        ./extras/check_dependencies.sh
+        ./extras/check_dependencies.sh
 #        make
 #        echo "Installing things with pip"
 #        pip install tqdm
