@@ -16,7 +16,7 @@ From: pytorch/pytorch:latest
         git clone https://github.com/kaldi-asr/kaldi.git
         cd kaldi/tools
         ./extras/check_dependencies.sh
-#        make
+        make
 #        echo "Installing things with pip"
 #        pip install tqdm
 #        echo "Creating mount points"
