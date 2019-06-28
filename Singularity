@@ -2,7 +2,7 @@
 # Reference of the kind of base you want to use (e.g., docker, debootstrap, shub).
 Bootstrap: docker
 # Select the docker image you want to use (Here we choose tensorflow)
-From: pytorch/pytorch:latest
+From: pytorch/pytorch:1.0.1-cuda10.0-cudnn7-runtime
 
 ################# Section: Defining the system #################################
 # Commands in the %post section are executed within the container.
