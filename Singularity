@@ -2,7 +2,7 @@ Bootstrap: docker
 From: pytorch/pytorch:1.0.1-cuda10.0-cudnn7-runtime
 
 %post
-        echo "Installing Tools with apt-get here"
+        echo "Installing Tools with apt-get "
         apt-get update
 	apt-get install -y --no-install-recommends g++ make automake autoconf bzip2 unzip wget sox libtool git subversion python2.7 python3 zlib1g-dev ca-certificates patch ffmpeg vim 
         apt-get clean
