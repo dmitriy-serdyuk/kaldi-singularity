@@ -11,7 +11,7 @@ From: pytorch/pytorch:1.0.1-cuda10.0-cudnn7-runtime
         ./extras/install_mkl.sh
         make
         cd /kaldi/src
-        ./configure --shared --use-cuda
+        ./configure --shared --no-use-cuda
         make depend
         make
 
