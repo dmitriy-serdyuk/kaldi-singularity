@@ -9,11 +9,11 @@ From: pytorch/pytorch:1.0.1-cuda10.0-cudnn7-runtime
         git clone https://github.com/kaldi-asr/kaldi.git
         cd kaldi/tools
         ./extras/install_mkl.sh
-        #make
-        #cd /kaldi/src
-        #./configure --shared --use-cuda=no
-        #make depend
-        #make
+        make
+        cd /kaldi/src
+        ./configure --shared --use-cuda=no
+        make depend
+        make
 
 %environment
         SHELL=/bin/bash
